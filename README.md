@@ -53,570 +53,215 @@ Upload to GitHub Pages for free hosting.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <div class="name">JAYARAJ</div>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <a href="https://github.com/Jayarajbalaji">
-            <button class="git-btn">GitHub</button>
-        </a>
+<img src="image.jpg" alt="Image" class="square-image">
+    <!-- Header / Home -->
+    <header id="home">
+        <div class="header-content">
+            <h1>Hi, I'm JAYARAJ B</h1>
+            <h2>Python Developer</h2>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="img-con">
-            <img src="./jayaraj.jpg" alt="Profile Picture" />
-        </div>
-        <div class="description">
-            <h3>Hi, I am</h3>
-            <h1>JAYARAJ</h1>
-            <h4>Python Developer</h4>
-            <div class="social-media">
-                <a href="https://github.com/Jayarajbalaji"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/jayaraj-b-5b135a344/"><i class="fab fa-linkedin"></i></a>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate developer with a versatile background in web development.
+             I thrive on building interactive applications and crafting innovative solutions that push the boundaries of technology and creativity.
+             My interests also extend to exploring  PCB design and UI/UX design, where I enjoy blending functionality with thoughtful user experience.</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="p1.jpg" alt="Machine Learning Project">
+                <h3>Mobile Application</h3>
+                <p>Built a classification model with UI&UX design.</p>
             </div>
-            <div class="abt-btn">
-                <button id="Resume" class="r-btn">Resume</button>
-                <a href="#contact"><button class="c-btn">Contact Me</button></a>
-            </div>
+
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="skills-container">
-            <div class="askill"><h2 class="h-1">Skills</h2></div>
-            <div class="experience">
-                <div class="front">
-                    <h3>Programming Language</h3>
-                    <ul>
-                        <li>C program</li>
-                        <li>Java</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <div class="back">
-                    <h3>Extracurricular Activities</h3>
-                    <ul>
-                        <li>NCC</li>
-                        <li>NSS</li>
-                        <li>Fine Arts Club as Vice Secretary</li>
-                    </ul>
-                </div>
-                <div class="tools">
-                    <h3>Language</h3>
-                    <ul>
-                        <li>English</li>
-                        <li>Tamil</li>
-                        <li>Telegu</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C</li>
+            <li>Python</li>
+            <li>PCB Design</li>
+            <li>HTML & CSS</li>
+        </ul>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="projects-container">
-            <div class="aproj"><h2 class="h-1">Projects</h2></div>
-            <div class="card-info">
-                <!-- Project 1 -->
-                <div class="card">
-                    <img src="./p1.jpg" alt="Project 1" />
-                    <h3>Mobile Application</h3>
-                    <div class="pro-btn">
-                        <a href="https://github.com/Jayarajbalaji/Balsamiq"><button class="g-btn">Github</button></a>
-                    </div>
-                </div>               
-                </div>
-            </div>
-        </div>
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: jayaraj.bf1@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/Jayarajbalaji" target="_blank">github.com/JAYARAJ</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/jayaraj-b-5b135a344/" target="_blank">linkedin.com/in/JAYARAJ</a></p>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <h2 class="section-title">Contact Me</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>Let's Connect!</h3>
-                <p>Feel free to reach out. Whether you have a project in mind, want to collaborate, or just say hello, I’m always open to new opportunities.</p>
-                <div class="contact-socials">
-                    <a href="https://github.com/Jayarajbalaji" class="socialicon"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/jayaraj-b-5b135a344/" class="socialicon"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required />
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required />
-                </div>
-                <div class="form-group">
-                    <label for="subject">Message</label>
-                    <input type="text" id="subject" name="Message" required />
-                </div>
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <h2>JAYARAJ</h2>
-                <p>Passionate Python Developer creating innovative digital solutions with clean, efficient code and user-centered design.</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <a href="#about">About</a>
-                    <a href="#skills">Experience</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Resources</h4>
-                    <a href="#">Resume</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Certifications</a>
-                    <a href="#">Blog</a>
-                </div>
-            </div>
-            <div class="footer-social">
-                <h4>Connect With Me</h4>
-                <div class="social-icons">
-                    <a href="https://github.com/Jayarajbalaji" class="social-icon"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/jayaraj-b-5b135a344/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <a href="#"><p id="thanks" class="credit">Designed and Developed  by JAYARAJ</p></a>
-        </div>
+        <p>© 2025 JAYARAJ | Portfolio</p>
     </footer>
-    <!-- Script -->
-    <script src="./script.js"></script>
+
 </body>
 </html>
 ```
 ## CSS Code
 ```
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Courier New', Courier, monospace;
-  text-decoration: none;
-  list-style: none;
-  scroll-behavior: smooth;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
-/* Header */
+
 header {
-  margin: 20px auto;
-  height: 40px;
-  width: 650px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 45px;
-  background-color: rgb(254, 244, 232);
+    background: url('a1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
-.name {
-  font-size: 1.2rem;
-  padding: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  color: rgb(239, 155, 77);
-  transition: transform 0.3s ease;
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
-.name:hover {
-  transform: scale(1.1);
+
+.header-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
+
+.btn {
+    background: #ff5722;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+nav {
+    background: #333;
+    position: sticky;
+    top: 0;
+}
+
 nav ul {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
 }
-nav ul li {
-  position: relative;
+
+nav ul li a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
 }
-nav ul a {
-  color: black;
-  font-size: 1rem;
-  padding: 5px 8px;
-  transition: color 0.3s ease;
+
+nav ul li a:hover {
+    background: #ff5722;
+    border-radius: 5px;
 }
-nav ul a:hover {
-  color: rgb(239, 155, 77);
+
+
+section {
+    padding: 50px;
+    text-align: center;
 }
-nav ul a::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -2px;
-  left: 0;
-  background-color: rgb(239, 155, 77);
-  transition: width 0.3s ease;
+
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
-nav ul a:hover::after {
-  width: 100%;
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
 }
-.git-btn {
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20px;
-  margin: 10px;
-  border-radius: 15px;
-  background-color: #f0f0f0;
-  color: #333;
-  border: none;
-  transition: all 0.3s ease;
-  cursor: pointer;
+
+.project-card:hover {
+    transform: scale(1.05);
 }
-.git-btn:hover {
-  background: linear-gradient(to right, #cba911, #fc7725);
-  color: white;
-  box-shadow: 0 4px 15px rgba(230, 143, 14, 0.4);
-  transform: translateY(-2px);
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
-/* About */
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  width: auto;
+
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
 }
-.img-con {
-  width: 600px;
-  height: 600px;
+
+#skills li {
+    background: #ff5722;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
-.img-con img {
-  object-fit: cover;
-  border-radius: 10%;
+
+
+#contact a {
+    color: #ff5722;
+    text-decoration: none;
 }
-.img-con img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(230, 143, 14, 0.4);
-}
-.description {
-  text-align: start;
-}
-.description h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: rgb(241, 198, 119);
-}
-.description h1 {
-  font-size: 3.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: rgb(132, 130, 128);
-}
-.description h4 {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: rgb(241, 198, 119);
-}
-.social-media i {
-  margin-right: 10px;
-  font-size: 2rem;
-  color: rgb(241, 198, 119);
-  cursor: pointer;
-}
-.abt-btn {
-  margin-top: 20px;
-  display: flex;
-  gap: 20px;
-}
-.abt-btn .r-btn,
-.abt-btn .c-btn {
-  font-size: 1rem;
-  padding: 12px 20px;
-  background-color: #e0dddd;
-  border: none;
-  border-radius: 30px;
-  color: rgb(241, 198, 119);
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-.abt-btn .r-btn:hover,
-.abt-btn .c-btn:hover {
-  background-color: #f0f0f0;
-  color: rgb(241, 141, 119);
-  transform: scale(1.05);
-  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
-}
-/* Skills */
-.skills {
-  padding: 80px 20px;
-  text-align: center;
-}
-.skills-container {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.askill .h-1 {
-  font-size: 32px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 20px;
-}
-.experience {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.front, .back, .tools {
-  background-color: rgb(241, 198, 119);
-  color: white;
-  padding: 50px;
-  border-radius: 5px;
-  box-shadow: 0 4px 15px rgba(230, 143, 14, 0.4);
-  border: #333 2px solid;
-  transition: all 0.3s ease;
-  width: 100%;
-}
-.front:hover, .back:hover, .tools:hover {
-  background-color: rgb(250, 213, 146);
-  box-shadow: 0 6px 20px rgba(230, 143, 14, 0.6);
-}
-.front h3, .back h3, .tools h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  position: relative;
-  padding-bottom: 10px;
-  transition: color 0.3s ease;
-}
-.front h3::after, .back h3::after, .tools h3::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50px;
-  height: 3px;
-  background-color: white;
-  transition: width 0.3s ease;
-}
-.front:hover h3, .back:hover h3, .tools:hover h3 {
-  color: rgb(80, 80, 80);
-}
-.front:hover h3::after, .back:hover h3::after, .tools:hover h3::after {
-  width: 100px;
-  background-color: rgb(80, 80, 80);
-}
-.front ul li, .back ul li, .tools ul li {
-  text-align: start;
-  padding: 5px 0;
-  transition: transform 0.3s ease, color 0.3s ease;
-}
-.front:hover ul li, .back:hover ul li, .tools:hover ul li {
-  transform: translateX(10px);
-  color: rgb(80, 80, 80);
-}
-/* Projects */
-.projects {
-  padding: 80px 20px;
-  text-align: center;
-}
-.projects-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.projects-container .aproj {
-  font-size: 32px;
-  font-weight: bold;
-  color: #333;
-}
-.card-info {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.card {
-  width: 300px;
-  background: linear-gradient(135deg, rgb(248, 186, 110), rgb(179, 179, 179));
-  border-radius: 10px;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0 4px 15px rgba(32, 31, 31, 0.4);
-  transition: transform 0.3s ease;
-}
-.card:hover {
-  transform: scale(1.05);
-}
-.card img {
-  width: 100%;
-  height: auto;
-  padding: 10px;
-  background-color: rgb(208, 207, 206);
-}
-.card h3 {
-  color: #f0f0f0;
-  padding: 10px;
-  background-color: #333;
-}
-.pro-btn button {
-  padding: 10px 20px;
-  border: none;
-  background-color: rgb(241, 198, 119);
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-.pro-btn button:hover {
-  background-color: rgb(252, 183, 85);
-  box-shadow: 0 4px 15px rgba(230, 143, 14, 0.4);
-}
-/* Contact */
-.contact {
-  padding: 80px 20px;
-  background-color: #f9f9f9;
-}
-.contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
-  gap: 30px;
-}
-.contact-info {
-  flex: 1;
-}
-.section-title {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-.contact-info h3 {
-  font-size: 1.2rem;
-  margin-bottom: 5px;
-  color: #333;
-}
-.contact-info p {
-  margin-bottom: 15px;
-  color: #666;
-}
-.contact-socials .socialicon {
-  font-size: 1.5rem;
-  color: rgb(241, 198, 119);
-  margin-right: 15px;
-}
-.contact-form {
-  flex: 1;
-}
-.form-group {
-  margin-bottom: 15px;
-}
-.form-group input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-.submit-btn {
-  background-color: rgb(241, 198, 119);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.submit-btn:hover {
-  background-color: rgb(252, 183, 85);
-}
-/* Footer */
+
+
 footer {
-  background-color: #333;
-  color: white;
-  padding: 40px 20px;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-.footer-logo h2 {
-  margin-bottom: 10px;
-}
-.footer-links, .footer-social {
-  display: flex;
-  flex-direction: column;
-}
-.footer-section h4 {
-  margin-bottom: 10px;
-  font-size: 1.1rem;
-  border-bottom: 1px solid #555;
-  padding-bottom: 5px;
-}
-.footer-section a {
-  color: #ccc;
-  margin-bottom: 5px;
-  transition: color 0.3s ease;
-}
-.footer-section a:hover {
-  color: white;
-}
-.social-icons {
-  display: flex;
-  gap: 15px;
-}
-.social-icon i {
-  font-size: 1.5rem;
-  color: #ccc;
-  transition: color 0.3s ease;
-}
-.social-icon i:hover {
-  color: rgb(241, 198, 119);
-}
-.footer-bottom {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 0.9rem;
-  color: #aaa;
-}
+
 ```
 ## OUTPUT
-<img width="1893" height="1012" alt="image" src="https://github.com/user-attachments/assets/a9dec608-dd13-48e7-bdf2-b00e4cb43efb" />
-<img width="1876" height="1132" alt="image" src="https://github.com/user-attachments/assets/02138e11-853c-4d29-be6c-e98f29615687" />
-<img width="1884" height="1191" alt="image" src="https://github.com/user-attachments/assets/1f15c80e-6e05-4d21-b8f4-60195b7c584b" />
-<img width="1897" height="418" alt="image" src="https://github.com/user-attachments/assets/1ee2fca4-11da-4d21-9fa2-ab70d1a4f79e" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/24e4b568-7612-4ab3-bc96-29706ab6504d" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d009fc0c-6df6-41b8-850f-3d483472acd1" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/1e4334d4-e28d-4d1d-be68-6f354481c933" />
 
 ## RESULT
 The program for creating Portfolio using HTML and CSS is executed successfully.
